@@ -11,3 +11,9 @@
     fmt.Printf("num的类型是: %T", num)
     // 打印变量字节数
     fmt.Println(unsafe.Sizeof(num3))
+
+4. 基本数据的默认值
+    整数：0
+    浮点数：0
+    布尔类型：false  注意：布尔类型只能为true或者false
+    字符串类型：""
